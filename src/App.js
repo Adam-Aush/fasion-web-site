@@ -1,14 +1,14 @@
-
+import Header from "./components/header/Header";
 
 
 function App() {
 
 
-  const fashion = "fashion"
+  const fashion = "Fashion"
 
   return (
     <div className="App">
-     <h1>{fashion}</h1>
+     <Header/>
     </div>
   );
 }
