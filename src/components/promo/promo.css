@@ -1,0 +1,83 @@
+.promo{
+    margin-bottom: 63px;
+}
+
+.promo__content{
+    display: flex;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+    background-color: #F4F6F5;
+    border-radius: 59px;
+}
+
+.promo__title{
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-family: Poppins;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.promo__desc{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+.promo__btn-wrapper{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.promo__btn-wrapper::before{
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('../../assets/img/icons/листок.svg');
+    
+}
+.promo__btn{
+    padding: 18px 40px;
+    background: #000;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.highligth{
+    position: relative;
+    display: inline-block;
+}
+.highligth span{
+    position: relative;
+    display: inline-block;
+}
+
+.highligth::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -40px;
+    right: -170px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+
+
+}
+.highligth--yellow::before{
+    background-color: var(--yellow);
+    right: -110px;
+}

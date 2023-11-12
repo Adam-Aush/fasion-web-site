@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Promo from "./components/promo/Promo";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
+     <Promo/>
     </div>
   );
 }
